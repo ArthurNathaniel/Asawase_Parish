@@ -1,0 +1,158 @@
+.hero_all {
+    height: 650px;
+    background-image: url(../images/church.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 2%;
+    margin-top: 10px;
+    width: 96%;
+    border-radius: 30px;
+}
+
+.hero_text {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_text h1 {
+    color: #fff;
+    font-size: 65px;
+}
+
+.hero_bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+    margin: 0 5%;
+    width: 90%;
+}
+
+.hero_bottom a {
+    color: var(--light-color);
+}
+
+.hero_location,
+.contact {
+    padding: 15px 35px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+
+.about_all {
+    margin: 0 2%;
+    margin-top: 70px;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.about_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_one {
+    width: 90%;
+}
+
+.about_title h1 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.about_grid p {
+    margin-bottom: 20px;
+    color: var(--light-color);
+}
+
+.about_btn {
+    margin-top: 40px;
+}
+
+.about_btn a {
+    border-radius: 30px;
+    padding: 15px 45px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.mass_all {
+    margin: 0 2%;
+    margin-top: 70px;
+    width: 96%;
+}
+
+.mass_title h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.mass_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mass_card {
+    width: 95%;
+    /* border: 1px solid var(--light-color); */
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mass_image {
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/church.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mass_info {
+    border-top: 1px solid var(--light-color);
+    padding: 0 5%;
+    padding-block: 20px;
+    text-align: center;
+}
+
+.motto_all{
+    margin: 0 2%;
+        margin-top: 70px;
+        width: 96%;
+    background-image: url("../images/church.jpg");
+    
+        min-height: 300px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+       
+}
+
+.slogan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.slogan h1{
+    color: #fff;
+    font-size: 50px;
+}
